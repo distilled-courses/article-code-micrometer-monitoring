@@ -2,13 +2,13 @@ version: "3.9"
 
 services:
   app:
-    build: app/.
+    build: "app/."
     ports:
       - "8080:8080"
       - "8081:8081"
   prometheus:
-    build: prometheus/.
+    build: "prometheus/."
     ports:
       - "9090:9090"
     depends_on:
-      - app
+      - "app"
