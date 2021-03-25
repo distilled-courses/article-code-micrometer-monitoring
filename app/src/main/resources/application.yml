@@ -18,3 +18,5 @@ management:
         http.server.requests: true
       maximum-expected-value:
         http.server.requests: 1s
+      minimum-expected-value:
+        http.server.requests: 100ms
