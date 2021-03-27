@@ -1,3 +1,6 @@
 # Micrometer monitoring article code
 
-This project contains the Docker Compose stack with three services: the Micrometer-instrumented Spring Boot Application, a Prometheus service, and a Grafana service.
+This project contains the Docker Compose stack with three services:
+* Micrometer-instrumented Spring Boot Application
+* Prometheus service
+* Grafana service
